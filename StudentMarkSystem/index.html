@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conatainer">
+        <div class="student-marks-div">
+            <h3>Student Marks System</h3>
+            <p></p>
+            <table id="marksTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>Ravi Kumar</td>
+                    <td>87</td>
+                </tr>
+                <tr>
+                    <td>Sneha Sharma</td>
+                    <td>93</td>
+                </tr>
+            </table>
+        </div>
+        <div class="controls-div">
+            <p id="pg">Controls</p>
+            <div class="control-btn-div">
+                <button>Show Highest</button>
+                <button>Show Average</button>
+                <button>Sort by marks</button>
+                <button>Reset Sample</button>
+                <button>Remove List</button>
+            </div>
+
+            <div class="input-div">
+                <p>Add a Student</p>
+                <label for="btn"></label>
+                <input type="text" id="name-input" placeholder="Student Name">
+                <input type="number" id="marks-input" placeholder="Marks (0-100)">
+                <button id="Add-student">Add Student</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
