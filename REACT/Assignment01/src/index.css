@@ -1,0 +1,29 @@
+
+.main-heading{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: antiquewhite;
+  gap: 20px;
+  padding-left: 30px;
+}
+.topic-container h1{
+  padding-left: 20px;
+}
+.Counter-div {
+  padding: 20px;
+  width: 200px;
+  
+}
+.Counter-div span{
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.btn-div{
+  display: flex;
+  gap:10px; 
+  cursor: pointer;
+}
