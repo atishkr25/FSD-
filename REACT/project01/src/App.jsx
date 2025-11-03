@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        just click on the logo
+        just click on the logo to learn more
       </p>
     </>
   )
